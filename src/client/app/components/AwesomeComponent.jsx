@@ -1,9 +1,9 @@
 import React from 'react';
 
-class AwesomeComponent extends React.Component {
+export default class AwesomeComponent extends React.Component {
 
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {likesCount : 0};
     this.onLike = this.onLike.bind(this);
   }
@@ -23,5 +23,3 @@ class AwesomeComponent extends React.Component {
   }
 
 }
-
-export default AwesomeComponent;
